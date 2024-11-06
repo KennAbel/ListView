@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ken.abel.listview"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ken.abel.listview"
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
